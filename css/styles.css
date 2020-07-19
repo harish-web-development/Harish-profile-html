@@ -1,0 +1,190 @@
+/*
+    ----- HTML ELEMENTS -----
+*/
+body {
+  /*background-color: blue; */
+  margin: 0;
+  text-align: center;
+}
+
+/*
+div {
+  background-color: #cbf1f5;
+  margin: 0;
+}
+*/
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  /*  position: relative; */
+  /* Harish */
+  /*top: 50px; */
+  /* Harish */
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 6%;
+}
+p {
+  line-height: 2;
+  color: #40514E;
+}
+
+a {
+  margin: 20px 25px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66BFBF;
+}
+
+/* Harish */
+/*
+p {
+
+  position: relative;
+  top: 50px;
+}
+*/
+/*
+    ----- CLASSES ELEMENTS -----
+*/
+.top_container {
+  background-color: #EAF6F6;
+  margin: 0;
+  margin-bottom: 50px;
+  position: relative;
+  /*Anjela */
+  padding-top: 100px;
+  /* Anjela */
+}
+
+.middle_container {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  line-height: 2.5;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+.top-cloud {
+  position: absolute;
+  /*right: 200px ; */
+  /*Harish */
+  /*top: 10px; */
+  /*Harish */
+  right: 300px;
+  /*Anjela */
+  top: 50px;
+  /*Anjela */
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  /*top: 150px; */
+  /*Harish */
+  left: 300px;
+  /*Anjela */
+  bottom: 300px;
+  /*Anjela */
+}
+
+.font-color-h1-h2 {
+  color: #66BFBF;
+}
+
+.font-color-h3-anc {
+  color: #11999E;
+}
+
+.skill-row {
+/*  display: inline-block; */ /*Harish*/
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+/*  height: 50%; */ /*Harish*/
+}
+
+.resize-img-vlsi {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.resize-img-cricket {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.font-color-p-1 {
+  color: #40514E;
+}
+
+.font-color-p-2 {
+  color: #EAF6F6;
+}
+
+.contact-me {
+  line-height: 1;
+}
+
+.push-button-down {
+  line-height: 10;
+}
+
+.wrap-paragraph {
+  width: 30%;
+  margin: auto;
+}
+/* BUTTON GENERATOR*/
+
+.btn {
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #29a5f2;
+  background-image: -webkit-linear-gradient(top, #29a5f2, #1094e0);
+  background-image: -moz-linear-gradient(top, #29a5f2, #1094e0);
+  background-image: -ms-linear-gradient(top, #29a5f2, #1094e0);
+  background-image: -o-linear-gradient(top, #29a5f2, #1094e0);
+  background-image: linear-gradient(to bottom, #29a5f2, #1094e0);
+  text-decoration: none;
+}
